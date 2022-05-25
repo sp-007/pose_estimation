@@ -31,8 +31,10 @@ class poseDetector():
 		return img
 
 def main():
-	path="C:/Users/shiva/OneDrive/Desktop/New folder/"
-	file=path+"demo1.mp4"
+	
+	#---------------------------------------write file name with its path instead of demo1.mp4
+	#---------------------------------------or write = instaed of demo1.mp4 for webcam
+	file="demo1.mp4"
 	#file=0
 	cap=cv2.VideoCapture(file)
 	lmlist=[0,11,12,13,14,25,26,27,28]
