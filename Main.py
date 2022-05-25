@@ -1,3 +1,4 @@
+#Before you run make sure you have Python install and open cv and mediapipe libraries in your machine if not follow readme file instructions
 import cv2
 import mediapipe as mp
 
@@ -32,9 +33,10 @@ class poseDetector():
 
 def main():
 	
-	#---------------------------------------write file name with its path instead of demo1.mp4
-	#---------------------------------------or write = instaed of demo1.mp4 for webcam
-	file="demo1.mp4"
+	#---------------------------------------write file name (file can either image or videoor webcam) with its path instead of demo1.mp4
+	#---------------------------------------or write = instaed of demo1.mp4 for webcam 
+	#---------------------------------------Press any key to stop
+	file="demo2.mp4"
 	#file=0
 	cap=cv2.VideoCapture(file)
 	lmlist=[0,11,12,13,14,25,26,27,28]
